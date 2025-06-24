@@ -41,7 +41,7 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_bi7q7"]
-size = Vector2(12, 12)
+size = Vector2(14, 13.5)
 
 [node name="slime" type="Node2D"]
 
@@ -50,13 +50,14 @@ position = Vector2(-2, -5)
 sprite_frames = SubResource("SpriteFrames_sg7cw")
 animation = &"IDLE"
 autoplay = "IDLE"
-frame_progress = 0.192518
+frame = 3
+frame_progress = 0.0107842
 script = ExtResource("2_bte5j")
 
 [node name="Killzone" parent="AnimatedSprite2D" instance=ExtResource("2_vnxak")]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="AnimatedSprite2D/Killzone"]
-position = Vector2(0, 5)
+position = Vector2(0, 5.25)
 shape = SubResource("RectangleShape2D_bi7q7")
 
 [node name="RayCast2D" type="RayCast2D" parent="AnimatedSprite2D"]

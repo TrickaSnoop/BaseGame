@@ -50,7 +50,8 @@ position = Vector2(-2, -5)
 sprite_frames = SubResource("SpriteFrames_sg7cw")
 animation = &"IDLE"
 autoplay = "IDLE"
-frame_progress = 0.192518
+frame = 3
+frame_progress = 0.0107842
 script = ExtResource("2_bte5j")
 
 [node name="Killzone" parent="AnimatedSprite2D" instance=ExtResource("2_vnxak")]

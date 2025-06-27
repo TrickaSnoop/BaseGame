@@ -15,6 +15,10 @@ run/main_scene="uid://g217165c60wu"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
 
+[autoload]
+
+AudioStreamPlayer2d="*res://Scene/audio_stream_player_2d.tscn"
+
 [input]
 
 move_left={
